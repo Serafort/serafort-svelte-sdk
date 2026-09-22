@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.svelte-kit/
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# Turbo
+.turbo/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# pnpm
+.pnpm-store/
